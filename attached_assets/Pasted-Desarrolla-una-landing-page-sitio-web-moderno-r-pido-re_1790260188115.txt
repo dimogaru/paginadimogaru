@@ -1,0 +1,64 @@
+Desarrolla una landing page/sitio web moderno, rápido, responsive y optimizado para SEO para www.dimugaru.es. 
+
+OBJETIVO TÉCNICO:
+- Stack mínimo y rápido (ej. HTML5 semantic, Tailwind CSS vía CDN/PostCSS, JS vanilla o Alpine.js). Evita dependencias pesadas innecesarias.
+- Preparado para desplegar en Coolify vía Docker / Static Server (genera un Dockerfile ligero con Nginx o Caddy).
+- Debe incluir configuración básica para Git (.gitignore, README.md para despliegue).
+
+ESTRUCTURA DE LA WEB Y CONTENIDOS:
+
+1. HEADER / NAVEGACIÓN:
+   - Logo / Marca: Dimugaru (dimugaru.es)
+   - Menú con scroll suave a secciones: Minijuegos, OffBunker, Sobre Dimugaru, Contacto.
+
+2. SECCIÓN HERO (Presentación Principal):
+   - Título impactante sobre tecnología, desarrollo web/apps y entretenimiento digital.
+   - Botón CTA principal para explorar minijuegos y soluciones.
+
+3. SECCIÓN 1: "Nuestros Minijuegos Arcade & PWA"
+   Crea una cuadrícula (grid) limpia de tarjetas promocionales con los dos juegos siguientes:
+
+   Card 1: Dodge & Catch
+   - Título: 🎮 ¡Prueba Dodge & Catch!
+   - Subtítulo: ¿Tienes los reflejos suficientes para dominar el ranking?
+   - Descripción: Pone a prueba tu agilidad en nuestro nuevo minijuego retro. Esquiva los peligros, atrapa la máxima puntuación y escala puestos en la tabla de clasificación global.
+   - Highlights / Badges:
+     * ⚡ Sin descargas: Juega al instante desde cualquier navegador.
+     * 📱 PWA: Agrégalo a tu pantalla de inicio como una App con un solo clic.
+     * 🏆 Competitivo: Registra tu apodo y demuestra quién manda en el Top 20.
+   - Botón CTA: "👉 ¡Jugar a Dodge & Catch ahora!" -> Enlace: https://dodge.dimogaru.es (target="_blank")
+
+   Card 2: Pixel Stack
+   - Título: 🎮 ¡Prueba Pixel Stack!
+   - Subtítulo: ¿Hasta qué altura puedes construir antes de que la presión te venza?
+   - Descripción: Pon a prueba tu precisión y reflejos en nuestro nuevo minijuego arcade retro. Encaja cada pilar al milímetro, gana espacio vertical, sobrevive a la lava ascendente y escala puestos en la tabla de clasificación global.
+   - Highlights / Badges:
+     * ⚡ Sin descargas ni esperas: Juega al instante desde tu navegador web o móvil.
+     * 📱 Experiencia App nativa: Agrégalo como PWA con un solo clic.
+     * 🏆 Competencia en directo: Registra tu apodo y domina el Top de la tabla de líderes.
+   - Botón CTA: "👉 ¡Jugar a Pixel Stack ahora!" -> Enlace: https://pixelstack-app.com (target="_blank")
+
+4. SECCIÓN 2 (APARTADO INDEPENDIENTE Y DESTACADO): "OffBunker — Tu Gestor Inteligente de Viajes"
+   Crea un bloque visualmente diferenciado y destacado para la plataforma OffBunker.
+
+   - Encabezado: OffBunker — Tu Gestor Inteligente de Viajes y Documentación Segura
+   - Resumen: Plataforma integral diseñada para organizar, gestionar y sincronizar toda la logística de tus viajes, vuelos, itinerarios y documentos importantes desde cualquier lugar (web y móvil).
+   - Módulo Destacado de Seguridad:
+     * Búnker Documental Web ↔ Móvil: Sincronización en tiempo real de pasajes, reservas y tarjetas de embarque.
+     * 🔒 Subidas Personales y Privadas (Exclusivo Móvil): Almacenamiento local encriptado en la memoria de tu dispositivo móvil para documentos confidenciales (notas, contraseñas, archivos médicos) sin subida a la nube ni servidores externos.
+   - Lista de Funcionalidades (Grid/Iconos):
+     * 🧳 Planificación Completa de Itinerarios (vuelos, actividades, alojamientos, parking).
+     * 🤝 Colaboración y Viajes Compartidos en tiempo real.
+     * 🧰 Módulo de Equipaje y Listas de Control personalizadas.
+     * 📶 Acceso Offline para consultar datos sin cobertura o roaming.
+     * 🛡️ Seguridad Empresarial con encriptación HTTPS y almacenamiento aislado.
+   - Botones CTA:
+     * [ 🚀 Abrir OffBunker Web ] -> Enlace (placeholder configurizable)
+     * [ 📱 Descargar App Móvil ] -> Enlace (placeholder configurizable)
+
+5. FOOTER:
+   - Copyright © Dimugaru. Enlaces a avisos legales / políticas de privacidad (placeholders) y contacto.
+
+REQUISITOS ADICIONALES PARA COOLIFY/DOCKER:
+- Genera un `Dockerfile` estático basado en `nginx:alpine` sirviendo la carpeta `dist` o los archivos estáticos HTML/CSS/JS.
+- Incluye un archivo `nginx.conf` básico optimizado para servir archivos estáticos con compresión gzip.

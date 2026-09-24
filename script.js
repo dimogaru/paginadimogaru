@@ -28,7 +28,6 @@
   const config = window.DIMUGARU_CONFIG || {};
   const configuredLinks = [
     ["offbunker-web-link", config.offbunkerWebUrl, "Añade la URL web en site-config.js para activar este enlace."],
-    ["offbunker-app-link", config.offbunkerAppUrl, "Añade la URL de la app en site-config.js para activar este enlace."],
     ["contact-link", config.contactUrl],
     ["footer-contact-link", config.contactUrl],
   ];

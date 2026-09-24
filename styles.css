@@ -205,7 +205,6 @@ h1, h2, h3, h4, p { margin-top: 0; }
 .offbunker-actions .button { min-width: 203px; }
 .offbunker-link[aria-disabled="true"] { cursor: not-allowed; opacity: .55; }
 .offbunker-link[aria-disabled="true"]:hover { transform: none; }
-.button-outline { border: 1px solid rgba(255,255,255,.28); color: #f4f4ef; background: transparent; }.button-outline:hover { border-color: var(--lime); color: var(--lime); }
 .offbunker-availability { display: inline-flex; align-items: center; gap: 9px; margin-left: auto; color: rgba(255,255,255,.49); font: 8px var(--font-mono); }
 
 .about { background: #eeefe8; }

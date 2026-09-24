@@ -12,7 +12,7 @@ python3 -m http.server 5000
 
 ## Configuración antes de publicar
 
-Edita `site-config.js` y sustituye los valores de `offbunkerWebUrl`, `offbunkerAppUrl` y `contactUrl` por las direcciones definitivas. Los enlaces de aviso legal y privacidad del footer también son marcadores; cambia sus `href` en `index.html` cuando estén disponibles.
+Edita `site-config.js` y sustituye los valores de `offbunkerWebUrl` y `contactUrl` por las direcciones definitivas. Los enlaces de aviso legal y privacidad del footer también son marcadores; cambia sus `href` en `index.html` cuando estén disponibles.
 
 Actualiza el correo de contacto si `hola@dimugaru.es` no es la dirección adecuada. Los dominios de los juegos y los metadatos SEO están en `index.html`.
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.dimugaru.es/sitemap.xml
+Sitemap: https://www.dimogaru.es/sitemap.xml

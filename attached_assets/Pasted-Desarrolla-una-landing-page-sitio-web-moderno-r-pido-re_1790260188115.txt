@@ -1,4 +1,4 @@
-Desarrolla una landing page/sitio web moderno, rápido, responsive y optimizado para SEO para www.dimugaru.es. 
+Desarrolla una landing page/sitio web moderno, rápido, responsive y optimizado para SEO para www.dimogaru.es. 
 
 OBJETIVO TÉCNICO:
 - Stack mínimo y rápido (ej. HTML5 semantic, Tailwind CSS vía CDN/PostCSS, JS vanilla o Alpine.js). Evita dependencias pesadas innecesarias.
@@ -8,8 +8,8 @@ OBJETIVO TÉCNICO:
 ESTRUCTURA DE LA WEB Y CONTENIDOS:
 
 1. HEADER / NAVEGACIÓN:
-   - Logo / Marca: Dimugaru (dimugaru.es)
-   - Menú con scroll suave a secciones: Minijuegos, OffBunker, Sobre Dimugaru, Contacto.
+   - Logo / Marca: Dimogaru (dimogaru.es)
+   - Menú con scroll suave a secciones: Minijuegos, OffBunker, Sobre Dimogaru, Contacto.
 
 2. SECCIÓN HERO (Presentación Principal):
    - Título impactante sobre tecnología, desarrollo web/apps y entretenimiento digital.
@@ -57,7 +57,7 @@ ESTRUCTURA DE LA WEB Y CONTENIDOS:
      * [ 📱 Descargar App Móvil ] -> Enlace (placeholder configurizable)
 
 5. FOOTER:
-   - Copyright © Dimugaru. Enlaces a avisos legales / políticas de privacidad (placeholders) y contacto.
+   - Copyright © Dimogaru. Enlaces a avisos legales / políticas de privacidad (placeholders) y contacto.
 
 REQUISITOS ADICIONALES PARA COOLIFY/DOCKER:
 - Genera un `Dockerfile` estático basado en `nginx:alpine` sirviendo la carpeta `dist` o los archivos estáticos HTML/CSS/JS.

@@ -1,6 +1,6 @@
-# Dimugaru
+# Dimogaru
 
-Landing page estática de Dimugaru, construida con HTML, CSS y JavaScript nativos. No necesita Node.js ni instalar dependencias.
+Landing page estática de Dimogaru, construida con HTML, CSS y JavaScript nativos. No necesita Node.js ni instalar dependencias.
 
 ## Desarrollo local
 
@@ -14,7 +14,7 @@ python3 -m http.server 5000
 
 Edita `site-config.js` y sustituye los valores de `offbunkerWebUrl` y `contactUrl` por las direcciones definitivas. Los enlaces de aviso legal y privacidad del footer también son marcadores; cambia sus `href` en `index.html` cuando estén disponibles.
 
-Actualiza el correo de contacto si `hola@dimugaru.es` no es la dirección adecuada. Los dominios de los juegos y los metadatos SEO están en `index.html`.
+Actualiza el correo de contacto si `hola@dimogaru.es` no es la dirección adecuada. Los dominios de los juegos y los metadatos SEO están en `index.html`.
 
 ## Despliegue en Coolify
 

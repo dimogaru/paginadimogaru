@@ -25,7 +25,7 @@
     });
   }
 
-  const config = window.DIMUGARU_CONFIG || {};
+  const config = window.DIMOGARU_CONFIG || {};
   const configuredLinks = [
     ["offbunker-web-link", config.offbunkerWebUrl, "Añade la URL web en site-config.js para activar este enlace."],
     ["contact-link", config.contactUrl],

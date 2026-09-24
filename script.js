@@ -25,17 +25,24 @@
     });
   }
 
-  const config = window.DIMOGARU_CONFIG || {};
+  const config = window.DIMUGARU_CONFIG || {};
   const configuredLinks = [
-    ["offbunker-web-link", config.offbunkerWebUrl],
-    ["offbunker-app-link", config.offbunkerAppUrl],
+    ["offbunker-web-link", config.offbunkerWebUrl, "Añade la URL web en site-config.js para activar este enlace."],
+    ["offbunker-app-link", config.offbunkerAppUrl, "Añade la URL de la app en site-config.js para activar este enlace."],
     ["contact-link", config.contactUrl],
     ["footer-contact-link", config.contactUrl],
   ];
 
-  configuredLinks.forEach(([id, url]) => {
+  configuredLinks.forEach(([id, url, placeholderMessage]) => {
     const link = document.getElementById(id);
-    if (!link || !url) return;
+    if (!link) return;
+    if (!url && placeholderMessage) {
+      link.setAttribute("aria-disabled", "true");
+      link.title = placeholderMessage;
+      link.addEventListener("click", (event) => event.preventDefault());
+      return;
+    }
+    if (!url) return;
     link.href = url;
     if (/^https?:\/\//i.test(url)) {
       link.target = "_blank";

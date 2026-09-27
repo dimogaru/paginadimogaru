@@ -1,0 +1,22 @@
+Por favor, actualiza el código de la landing page (index.html, estilos y archivos de configuración) para reflejar la última versión de OffBunker y asegurar la correcta vinculación de todas las aplicaciones en el ecosistema Dimogaru.
+
+1. ACTUALIZACIÓN DE ENLACES Y DOMINIOS OFICIALES:
+   - OffBunker: Enlaza el botón principal "Abrir OffBunker" a: `https://offbunker.dimogaru.es` (target="_blank").
+   - Dodge & Catch: Enlaza el botón a: `https://dodge.dimogaru.es` (target="_blank").
+   - Pixel Stack: Enlaza el botón a: `https://pixelstack-app.com` (target="_blank").
+   - Web Principal: Verifica que la marca sea Dimogaru (`https://dimogaru.es`).
+
+2. TEXTO Y PROPUESTA DE VALOR DE OFFBUNKER:
+   Actualiza la tarjeta/sección de OffBunker con la descripción y módulos recientes:
+   - Titular: "OffBunker — La información de tu viaje, blindada y offline"
+   - Subtítulo / Resumen: "Ecosistema de planificación web y ejecución local resiliente. Organiza, gestiona y sincroniza toda la logística de tus viajes, itinerarios y documentos con acceso offline total sin roaming."
+   - Destacados clave:
+     * 🔄 Sync Bidireccional: Planifica en escritorio y consulta en móvil en tiempo real.
+     * 🔒 Subidas Personales Privadas: Encriptación y almacenamiento exclusivo en la memoria local de tu dispositivo móvil para documentos sensibles.
+     * 🧳 Módulo de Equipaje & Modo Maleta: Listas inteligentes por categorías con fuentes maximizadas para revisión rápida.
+     * 📶 Resiliencia Offline: Acceso íntegro a pasajes, billetes y alojamientos sin necesidad de cobertura ni datos.
+     * 📲 Instalación PWA: Acceso directo e instantáneo desde el navegador sin pasar por tiendas de aplicaciones.
+
+3. CONSERVACIÓN DE GALERÍAS Y ESTILOS:
+   - Conserva las galerías de capturas reales ubicadas en la raíz (`offbunker_1.png` a `offbunker_5.jpeg`, `dodge_1.jpeg` a `dodge_4.jpeg`, `pixel_1.jpeg` a `pixel_3.jpeg`).
+   - Mantén un diseño oscuro (Dark Mode), moderno, limpio y 100% responsive.

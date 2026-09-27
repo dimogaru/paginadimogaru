@@ -167,6 +167,7 @@ h1, h2, h3, h4, p { margin-top: 0; }
 .offbunker .eyebrow { color: rgba(255,255,255,.5); }
 .offbunker .eyebrow-index { color: var(--lime); }
 .offbunker-title-row { display: flex; align-items: center; justify-content: space-between; gap: 25px; }
+.offbunker-title-row > div { min-width: 0; }
 .offbunker-brand { display: inline-flex; align-items: center; gap: 9px; margin-bottom: 20px; color: var(--lime); font: 11px var(--font-mono); letter-spacing: 1.8px; }
 .bunker-mark { display: grid; width: 19px; height: 19px; grid-template-columns: repeat(2,1fr); gap: 2px; transform: rotate(45deg); }
 .bunker-mark i { background: var(--lime); border-radius: 1px; }.bunker-mark i:nth-child(2),.bunker-mark i:nth-child(3) { opacity: .38; }

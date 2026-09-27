@@ -1,1 +1,2 @@
 - [Static assets in Nginx](static-assets-nginx-permissions.md) — uploaded root images may keep restrictive modes through Docker COPY and return 403 from Nginx.
+- [Partial multi-file patches](partial-multi-file-patches.md) — re-check every target after a multi-file patch fails; some files may already have changed.

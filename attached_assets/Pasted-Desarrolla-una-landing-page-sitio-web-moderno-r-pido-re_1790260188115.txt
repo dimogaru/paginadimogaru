@@ -1,4 +1,4 @@
-Desarrolla una landing page/sitio web moderno, rápido, responsive y optimizado para SEO para www.dimogaru.es. 
+Desarrolla una landing page/sitio web moderno, rápido, responsive y optimizado para SEO para https://dimogaru.es.
 
 OBJETIVO TÉCNICO:
 - Stack mínimo y rápido (ej. HTML5 semantic, Tailwind CSS vía CDN/PostCSS, JS vanilla o Alpine.js). Evita dependencias pesadas innecesarias.
